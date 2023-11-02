@@ -1,0 +1,28 @@
+Command line:
+   Mux4to1b4_Mux4to1b4_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58270
+
+Wed Nov 01 19:33:11 2023
+
+
+ Elaboration Time: 0.21875 sec
+
+ Current Memory Usage: 5000.37 Meg
+
+ Total Signals          : 126
+ Total Nets             : 57
+ Total Signal Drivers   : 36
+ Total Blocks           : 29
+ Total Primitive Blocks : 27
+ Total Processes        : 38
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 187
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5314.95 Meg
+
+Wed Nov 01 19:33:48 2023
+
