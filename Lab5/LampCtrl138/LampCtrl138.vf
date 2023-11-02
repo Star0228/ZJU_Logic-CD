@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LampCtrl138.vf
+// /___/   /\     Timestamp : 10/16/2023 23:05:48
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/practice/LampCtrl138/LampCtrl138.vf -w C:/practice/LampCtrl138/LampCtrl138.sch
+//Design Name: LampCtrl138
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module LampCtrl138(S1, 
+                   S2, 
+                   S3, 
+                   F);
+
+    input S1;
+    input S2;
+    input S3;
+   output F;
+   
+   wire XLXN_5;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire [7:0] Y;
+   
+   D_74LS138  XLXI_1 (.A(S3), 
+                     .B(S2), 
+                     .C(S1), 
+                     .G(XLXN_5), 
+                     .G2A(XLXN_8), 
+                     .G2B(XLXN_7), 
+                     .Y(Y[7:0]));
+   VCC  XLXI_2 (.P(XLXN_5));
+   GND  XLXI_3 (.G(XLXN_8));
+   GND  XLXI_4 (.G(XLXN_7));
+   NAND4  XLXI_5 (.I0(Y[7]), 
+                 .I1(Y[4]), 
+                 .I2(Y[2]), 
+                 .I3(Y[1]), 
+                 .O(F));
+endmodule
