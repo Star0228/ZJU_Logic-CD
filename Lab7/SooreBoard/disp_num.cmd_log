@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family kintex7 -verilog disp_num_drc.vf -w C:/practice/SooreBoard/disp_num.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog disp_num.vf -w C:/practice/SooreBoard/disp_num.sch 
+sch2sym -intstyle ise -family kintex7 -refsym disp_num C:/practice/SooreBoard/disp_num.sch C:/practice/SooreBoard/disp_num.sym 
