@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/practice/MyMC14495/MyMC14495.xst" -ofn "C:/practice/MyMC14495/MyMC14495.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w C:/practice/MyMC14495/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 C:/practice/MyMC14495/MyMC14495.sch C:/practice/MyMC14495/MyMC14495.sym 
