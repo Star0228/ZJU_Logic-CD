@@ -1,3 +1,0 @@
-sch2hdl -intstyle ise -family kintex7 -verilog Mux4to1_drc.vf -w C:/practice/Mux4to1b4_sch/Mux4to1.sch 
-sch2sym -intstyle ise -family kintex7 -refsym Mux4to1 C:/practice/Mux4to1b4_sch/Mux4to1.sch C:/practice/Mux4to1b4_sch/Mux4to1.sym 
-sch2hdl -intstyle ise -family kintex7 -verilog Mux4to1.vf -w C:/practice/Mux4to1b4_sch/Mux4to1.sch 

@@ -1,3 +1,0 @@
-sch2hdl -intstyle ise -family kintex7 -verilog DisplaySync_drc.vf -w C:/practice/Mux4to1b4_sch/DisplaySync.sch 
-sch2sym -intstyle ise -family kintex7 -refsym DisplaySync C:/practice/Mux4to1b4_sch/DisplaySync.sch C:/practice/Mux4to1b4_sch/DisplaySync.sym 
-sch2hdl -intstyle ise -family kintex7 -verilog DisplaySync.vf -w C:/practice/Mux4to1b4_sch/DisplaySync.sch 
