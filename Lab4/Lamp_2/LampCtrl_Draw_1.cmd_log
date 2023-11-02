@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/practice/Lamp_2/LampCtrl_Draw_1.xst" -ofn "C:/practice/Lamp_2/LampCtrl_Draw_1.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1_drc.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+xst -intstyle ise -ifn "C:/practice/Lamp_2/LampCtrl_Draw_1.xst" -ofn "C:/practice/Lamp_2/LampCtrl_Draw_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 LampCtrl_Draw_1.ngc LampCtrl_Draw_1.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LampCtrl_Draw_1_map.ncd LampCtrl_Draw_1.ngd LampCtrl_Draw_1.pcf 
+par -w -intstyle ise -ol high -mt off LampCtrl_Draw_1_map.ncd LampCtrl_Draw_1.ncd LampCtrl_Draw_1.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LampCtrl_Draw_1.twx LampCtrl_Draw_1.ncd -o LampCtrl_Draw_1.twr LampCtrl_Draw_1.pcf 
+bitgen -intstyle ise -f LampCtrl_Draw_1.ut LampCtrl_Draw_1.ncd 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1_drc.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1_drc.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1_drc.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog LampCtrl_Draw_1.vf -w C:/practice/Lamp_2/LampCtrl_Draw_1.sch 
+xst -intstyle ise -ifn "C:/practice/Lamp_2/LampCtrl_Draw_1.xst" -ofn "C:/practice/Lamp_2/LampCtrl_Draw_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc K7.ucf -p xc7k160t-ffg676-1 LampCtrl_Draw_1.ngc LampCtrl_Draw_1.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o LampCtrl_Draw_1_map.ncd LampCtrl_Draw_1.ngd LampCtrl_Draw_1.pcf 
+par -w -intstyle ise -ol high -mt off LampCtrl_Draw_1_map.ncd LampCtrl_Draw_1.ncd LampCtrl_Draw_1.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml LampCtrl_Draw_1.twx LampCtrl_Draw_1.ncd -o LampCtrl_Draw_1.twr LampCtrl_Draw_1.pcf -ucf K7.ucf 
+bitgen -intstyle ise -f LampCtrl_Draw_1.ut LampCtrl_Draw_1.ncd 
