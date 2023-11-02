@@ -1,0 +1,10 @@
+Command line:
+   LampCtrl_Draw_1_LampCtrl_Draw_1_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63018
+
+Thu Oct 12 21:03:13 2023
+
+
+ Elaboration Time: 0.0625 sec
