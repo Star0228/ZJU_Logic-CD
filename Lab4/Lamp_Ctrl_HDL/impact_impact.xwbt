@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\practice\Lamp_Ctrl_HDL\impact.xsl
+OUTFILE=C:\practice\Lamp_Ctrl_HDL\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\practice\Lamp_Ctrl_HDL
+LICENSE=iMPACT
+USER_INFO=iMPACT

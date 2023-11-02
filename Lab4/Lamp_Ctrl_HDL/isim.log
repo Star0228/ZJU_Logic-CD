@@ -1,0 +1,28 @@
+ISim log file
+Running: C:\practice\Lamp_Ctrl_HDL\LampCtrl_1_sim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/practice/Lamp_Ctrl_HDL/LampCtrl_1_sim_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 548424040 ns : File "C:/practice/Lamp_Ctrl_HDL/LampCtrl_1_sim.v" Line 65
+# run 19.00us
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1767782930 ns : File "C:/practice/Lamp_Ctrl_HDL/LampCtrl_1_sim.v" Line 66
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

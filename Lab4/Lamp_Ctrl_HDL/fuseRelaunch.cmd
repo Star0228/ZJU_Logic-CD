@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/practice/Lamp_Ctrl_HDL/LampCtrl_1_sim_isim_beh.exe" -prj "C:/practice/Lamp_Ctrl_HDL/LampCtrl_1_sim_beh.prj" "work.LampCtrl_1_sim" "work.glbl" 
