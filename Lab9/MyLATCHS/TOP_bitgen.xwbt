@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\16579\Desktop\practice\Lab8\MyLATCHS\TOP.ncd
+OUTFILE=C:\Users\16579\Desktop\practice\Lab8\MyLATCHS\TOP.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=C:\Users\16579\Desktop\practice\Lab8\MyLATCHS
+LICENSE=WebPack
+USER_INFO=__0_0_0
