@@ -1,0 +1,76 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : D_FLIPFLOP.vf
+// /___/   /\     Timestamp : 11/12/2023 20:10:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/D_FLIPFLOP.vf -w C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/D_FLIPFLOP.sch
+//Design Name: D_FLIPFLOP
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module D_FLIPFLOP(Cp, 
+                  D, 
+                  R, 
+                  S, 
+                  Q, 
+                  Qbar);
+
+    input Cp;
+    input D;
+    input R;
+    input S;
+   output Q;
+   output Qbar;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_10;
+   wire XLXN_13;
+   wire Q_DUMMY;
+   wire Qbar_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   assign Qbar = Qbar_DUMMY;
+   NAND3  XLXI_1 (.I0(XLXN_2), 
+                 .I1(XLXN_4), 
+                 .I2(XLXN_13), 
+                 .O(XLXN_1));
+   NAND3  XLXI_2 (.I0(Cp), 
+                 .I1(XLXN_10), 
+                 .I2(XLXN_1), 
+                 .O(XLXN_2));
+   NAND3  XLXI_3 (.I0(XLXN_4), 
+                 .I1(Cp), 
+                 .I2(XLXN_2), 
+                 .O(XLXN_3));
+   NAND3  XLXI_4 (.I0(D), 
+                 .I1(XLXN_10), 
+                 .I2(XLXN_3), 
+                 .O(XLXN_4));
+   NAND3  XLXI_5 (.I0(Qbar_DUMMY), 
+                 .I1(XLXN_2), 
+                 .I2(XLXN_13), 
+                 .O(Q_DUMMY));
+   NAND3  XLXI_6 (.I0(XLXN_10), 
+                 .I1(XLXN_3), 
+                 .I2(Q_DUMMY), 
+                 .O(Qbar_DUMMY));
+   INV  XLXI_7 (.I(S), 
+               .O(XLXN_13));
+   INV  XLXI_8 (.I(R), 
+               .O(XLXN_10));
+endmodule
