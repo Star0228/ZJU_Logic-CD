@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/practice/Lab8/MyALU/CreateNumber.v -lang verilog -prj MyALU -o CreateNumber.spl -module CreateNumber -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w CreateNumber.spl C:/practice/Lab8/MyALU/CreateNumber.sym 
+vhdtdtfi -lang verilog -prj MyALU -o C:/practice/Lab8/MyALU/CreateNumber.tfi -lib work C:/practice/Lab8/MyALU//CreateNumber.v -module CreateNumber -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

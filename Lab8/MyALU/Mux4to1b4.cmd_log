@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -w -refsym Mux4to1b4 C:/practice/Lab8/MyALU/Mux4to1b4.sch C:/practice/Lab8/MyALU/Mux4to1b4.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Mux4to1b4_drc.vf -w C:/practice/Lab8/MyALU/Mux4to1b4.sch 

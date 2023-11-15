@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog AddSub4b_copy.vf -w C:/practice/Lab8/MyALU/AddSub4b_copy.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym AddSub4b_copy C:/practice/Lab8/MyALU/AddSub4b_copy.sch C:/practice/Lab8/MyALU/AddSub4b_copy.sym 

@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family kintex7 -verilog AddSub1b_drc.vf -w C:/practice/Lab8/MyALU/AddSub1b.sch 
+sch2sym -intstyle ise -family kintex7 -refsym AddSub1b C:/practice/Lab8/MyALU/AddSub1b.sch C:/practice/Lab8/MyALU/AddSub1b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog AddSub1b.vf -w C:/practice/Lab8/MyALU/AddSub1b.sch 

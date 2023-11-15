@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/16579/Desktop/practice/Lab8/MyALU/ALU_ALU_sch_tb_isim_beh.exe -prj C:/Users/16579/Desktop/practice/Lab8/MyALU/ALU_ALU_sch_tb_beh.prj work.ALU_ALU_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/Adder1b.v" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/AddSub1b.vf" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/MyOr2b4.v" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/MyAnd2b4.v" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/Mux4to1b4.vf" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/Mux4to1.vf" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/AddSub4b.vf" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/ALU.vf" into library work
+Analyzing Verilog file "C:/Users/16579/Desktop/practice/Lab8/MyALU/ALU_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AND2
+Compiling module INV
+Compiling module OR4
+Compiling module Mux4to1
+Compiling module MyAnd2b4
+Compiling module MyOr2b4
+Compiling module GND
+Compiling module Adder1b
+Compiling module XOR2
+Compiling module AddSub1b_MUSER_ALU
+Compiling module AddSub4b_MUSER_ALU
+Compiling module Mux4to1b4
+Compiling module ALU
+Compiling module ALU_ALU_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\ALU_ALU_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 15 Verilog Units
+Built simulation executable C:/Users/16579/Desktop/practice/Lab8/MyALU/ALU_ALU_sch_tb_isim_beh.exe
+Fuse Memory Usage: 29196 KB
+Fuse CPU Usage: 1390 ms

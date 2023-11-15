@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Adder1b22_drc.vf -w C:/practice/Lab8/MyALU/Adder1b22.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Adder1b22.vf -w C:/practice/Lab8/MyALU/Adder1b22.sch 

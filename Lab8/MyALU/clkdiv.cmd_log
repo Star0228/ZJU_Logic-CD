@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/practice/Lab8/MyALU/clkdiv.v -lang verilog -prj MyALU -o clkdiv.spl -module clkdiv -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 clkdiv.spl C:/practice/Lab8/MyALU/clkdiv.sym 

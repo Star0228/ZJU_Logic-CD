@@ -1,0 +1,5 @@
+vhdtdtfi -lib work C:/practice/Lab8/MyALU/HEXTo8SEG.v -lang verilog -prj MyALU -o HEXTo8SEG.spl -module HEXTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w HEXTo8SEG.spl C:/practice/Lab8/MyALU/HEXTo8SEG.sym 
+vhdtdtfi -lib work C:/practice/Lab8/MyALU/HEXTo8SEG.v -lang verilog -prj MyALU -o HEXTo8SEG.spl -module HEXTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w HEXTo8SEG.spl C:/practice/Lab8/MyALU/HEXTo8SEG.sym 
+vhdtdtfi -lang verilog -prj MyALU -o C:/practice/Lab8/MyALU/HEXTo8SEG.tfi -lib work C:/practice/Lab8/MyALU//HEXTo8SEG.v -module HEXTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
