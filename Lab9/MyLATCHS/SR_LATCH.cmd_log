@@ -1,3 +1,0 @@
-sch2sym -intstyle ise -family kintex7 -refsym SR_LATCH C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/SR_LATCH.sch C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/SR_LATCH.sym 
-sch2hdl -intstyle ise -family kintex7 -verilog SR_LATCH_drc.vf -w C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/SR_LATCH.sch 
-sch2hdl -intstyle ise -family kintex7 -verilog SR_LATCH.vf -w C:/Users/16579/Desktop/practice/Lab8/MyLATCHS/SR_LATCH.sch 
