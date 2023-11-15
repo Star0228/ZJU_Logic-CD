@@ -1,8 +1,0 @@
-verilog work "Adder1b.v"
-verilog work "AddSub1b.vf"
-verilog work "MyOr2b4.v"
-verilog work "MyAnd2b4.v"
-verilog work "Mux4to1b4.vf"
-verilog work "Mux4to1.vf"
-verilog work "AddSub4b.vf"
-verilog work "ALU.vf"
