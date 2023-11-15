@@ -1,0 +1,18 @@
+[Inputs]
+clk
+=BTN[1:0]=
+=SW1[1:0]=
+=SW2[1:0]=
+=SW[11:0]=
+[Outputs]
+BTNX4
+seg_clk
+seg_clrn
+seg_sout
+SEG_PEN
+=AN[3:0]=
+=SEGMENT[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Top
+
