@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym Sseg_Dev C:/practice/Lab8/MyALU/Sseg_Dev.sch C:/practice/Lab8/MyALU/Sseg_Dev.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Sseg_Dev.vf -w C:/practice/Lab8/MyALU/Sseg_Dev.sch 

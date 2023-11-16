@@ -1,2 +1,0 @@
-vhdtdtfi -lib work C:/practice/Lab8/MyALU/MyOr2b4.v -lang verilog -prj MyALU -o MyOr2b4.spl -module MyOr2b4 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family kintex7 MyOr2b4.spl C:/practice/Lab8/MyALU/MyOr2b4.sym 
