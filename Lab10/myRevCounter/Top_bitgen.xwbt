@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Logic\myRevCounter\Top.ncd
+OUTFILE=E:\Logic\myRevCounter\Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=E:\Logic\myRevCounter
+LICENSE=WebPack
+USER_INFO=__0_0_0

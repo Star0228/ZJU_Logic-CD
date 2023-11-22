@@ -1,0 +1,82 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf k7.ucf
+
+Design file:              Top.ncd
+Physical constraint file: Top.pcf
+Device,package,speed:     xc7k160t,fbg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+AN<0>       |        11.964(R)|      SLOW  |         4.379(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<1>       |        11.916(R)|      SLOW  |         4.412(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<2>       |        12.048(R)|      SLOW  |         4.408(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<3>       |        11.714(R)|      SLOW  |         4.377(R)|      FAST  |clk_BUFGP         |   0.000|
+LEDEN       |        12.486(R)|      SLOW  |         4.297(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<0>  |        14.272(R)|      SLOW  |         4.858(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<1>  |        14.213(R)|      SLOW  |         4.940(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<2>  |        14.151(R)|      SLOW  |         4.784(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<3>  |        14.403(R)|      SLOW  |         4.830(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<4>  |        13.496(R)|      SLOW  |         4.542(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<5>  |        13.652(R)|      SLOW  |         4.718(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGMENT<6>  |        13.279(R)|      SLOW  |         4.503(R)|      FAST  |clk_BUFGP         |   0.000|
+ledclk      |        13.100(R)|      SLOW  |         4.854(R)|      FAST  |clk_BUFGP         |   0.000|
+ledsout     |        11.224(R)|      SLOW  |         4.224(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.720|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW             |led            |    9.462|
+clk            |ledclk         |   11.869|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 22 10:12:01 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5100 MB
+
+
+
