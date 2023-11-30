@@ -17,3 +17,5 @@
 ### Lab10
 * [MyCounter](./Lab10/MyCounter/top.bit)———clk_1s、Counter_4b四位同步二进制计数器
 * [myRevCounter](./Lab10/myRevCounter/top.bit)———clk_100ms、RevCounter十六位可逆同步二进制计数器
+### Lab11
+* [MyALUTrans](./Lab11/MyALUTrans/top.bit)———ALU等模块.函数架构可理解为双模式运行(SW15)Mode1:运算输出控制、基于多路选择器总线的寄存器传输;Mode2:数据传输控制
