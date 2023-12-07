@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+vhdtdtfi -lang verilog -prj My74LS161 -o /tmp/Logic/My74LS161/My74LS161.tfi -lib work /tmp/Logic/My74LS161//My74LS161.v -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj My74LS161 -o /tmp/Logic/My74LS161/My74LS161.tfi -lib work /tmp/Logic/My74LS161//My74LS161.v -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/My74LS161.xst" -ofn "/tmp/Logic/My74LS161/My74LS161.syr" 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 
+vhdtdtfi -lib work /tmp/Logic/My74LS161/My74LS161.v -lang verilog -prj My74LS161 -o My74LS161.spl -module My74LS161 -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w My74LS161.spl /tmp/Logic/My74LS161/My74LS161.sym 

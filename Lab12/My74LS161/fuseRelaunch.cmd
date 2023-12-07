@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/tmp/Logic/My74LS161/test_isim_beh.exe" -prj "/tmp/Logic/My74LS161/test_beh.prj" "work.test" "work.glbl" 

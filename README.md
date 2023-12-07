@@ -19,3 +19,6 @@
 * [myRevCounter](./Lab10/myRevCounter/top.bit)———clk_100ms、RevCounter十六位可逆同步二进制计数器
 ### Lab11
 * [MyALUTrans](./Lab11/MyALUTrans/top.bit)———ALU等模块.函数架构可理解为双模式运行(SW15)Mode1:运算输出控制、基于多路选择器总线的寄存器传输;Mode2:数据传输控制
+### Lab12
+* My74LS161(文件) 74LS161是常用的四位 二进制 可预置的同步加法计数器，可以灵活的运用在各种 数字电路 ，以及 单片机 系统种实现分频器等很多重要的功能。
+* [MyClock](./Lab12/MyClock/top.bit)———引入My74LS161,Sseg_Dev,clk_100ms;目前只制作了00：小时：分钟的自增模块，100ms一次跳秒（有时间更新小时：分钟：秒自增时钟）

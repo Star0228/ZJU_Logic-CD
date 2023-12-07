@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/tmp/Logic/My74LS161/rrr.xst" -ofn "/tmp/Logic/My74LS161/rrr.syr" 

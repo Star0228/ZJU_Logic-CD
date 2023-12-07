@@ -1,0 +1,15 @@
+Running: /opt/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /tmp/Logic/My74LS161/test_isim_beh.exe -prj /tmp/Logic/My74LS161/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "/tmp/Logic/My74LS161/My74LS161.v" into library work
+Analyzing Verilog file "/tmp/Logic/My74LS161/test.v" into library work
+Analyzing Verilog file "/opt/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/tmp/Logic/My74LS161/test.v" Line 48: Size mismatch in connection of port <D>. Formal port size is 4-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 82944 KB
+Fuse CPU Usage: 1340 ms
+Compiling module My74LS161
+FATAL_ERROR:Simulator:CompilerUtils.cpp:570:1.51 - /usr/bin/gcc not found, please install GCC for your Linux distribution   For technical support on this issue, please visit http://www.xilinx.com/support.

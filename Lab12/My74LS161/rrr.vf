@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : rrr.vf
+// /___/   /\     Timestamp : 12/07/2023 16:56:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog /tmp/Logic/My74LS161/rrr.vf -w /tmp/Logic/My74LS161/rrr.sch
+//Design Name: rrr
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module rrr();
+
+   
+   
+   My74LS161  XLXI_1 (.CP(), 
+                     .CRBar(), 
+                     .CTP(), 
+                     .CTT(), 
+                     .LDBar(), 
+                     .(3:0)(), 
+                     .C0());
+endmodule
