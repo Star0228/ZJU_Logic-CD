@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.xst" -ofn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MyshiftReg8b.ngc MyshiftReg8b_synthesis.v 
+xst -intstyle ise -ifn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.xst" -ofn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.syr" 
+xst -intstyle ise -ifn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.xst" -ofn "/tmp/Logic/ShiftReg8b/MyshiftReg8b.syr" 

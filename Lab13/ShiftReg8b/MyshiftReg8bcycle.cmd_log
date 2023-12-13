@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /tmp/Logic/ShiftReg8b/MyshiftReg8bcycle.v -lang verilog -prj ShiftReg8b -o MyshiftReg8bcycle.spl -module MyshiftReg8bcycle -template /opt/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MyshiftReg8bcycle.spl /tmp/Logic/ShiftReg8b/MyshiftReg8bcycle.sym 
